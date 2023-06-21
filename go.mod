@@ -1,4 +1,4 @@
-module github.com/matt1484/spectagular
+module github.com/maple-j/spectagular
 
 go 1.19
 
