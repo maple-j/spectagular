@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/matt1484/spectagular"
+	"github.com/maple-j/spectagular"
 )
 
 type assertType interface {
