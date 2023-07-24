@@ -262,7 +262,7 @@ func (t *StructTagCache[T]) Add(sourceRType reflect.Type) error {
 						FieldIndex: i,
 					}
 					ftv := reflect.Indirect(reflect.ValueOf(value))
-					ftv.Index(ttag.FieldIndex).SetBool(true)
+					ftv.Field(ttag.FieldIndex).SetBool(true)
 					ft.Value = *value
 					fieldTags = append(fieldTags, ft)
 				}
